@@ -7,3 +7,11 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return plays
 }
+
+function johnLennonFacts(facts) {
+  var wow = []
+  for (var i = 0; i < facts.length; i++) {
+    wow.push(`${facts[i]}!!!`)
+  }
+  return wow
+}
